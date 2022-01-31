@@ -45,6 +45,12 @@ body {
     letter-spacing: 4px;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.font-montserrat {
+font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
     font-size: 55px;
     font-family: Varela Round; 
@@ -125,4 +131,19 @@ a:hover {
     100% { 
         opacity: 1;
     }
+}
+
+footer {
+/* Set Size. */
+width: 100%;
+max-width: 100%;
+padding-top: 20px;
+padding-bottom: 20px;
+
+/* Add Offset */
+padding-left: 10px;
+
+/* Set box color */
+background-color: #252525; /* gray */
+
 }
