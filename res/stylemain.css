@@ -18,12 +18,19 @@ body {
 
     /* Background */
     background-color: #252525;
-    background-image: url("images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(16px);
     animation: bgFadeIn ease-in-out 2s;
     animation-fill-mode: forwards;
+}
+
+.bg-1 {
+    background-image: url("images/bg.jpg");
+}
+
+.bg-2 {
+    background-image: url("images/bg2.jpg");
 }
 
 #h-to {
@@ -91,7 +98,6 @@ li {
     height: fit-content;
     display: inline-block;
     margin-right: 15px;
-    /* padding: 4px 4px 4px 4px; */
 }
 
 li:hover {
@@ -100,7 +106,6 @@ li:hover {
 
 .selected {
     font-weight: normal;
-    /* border: 1px solid #ffffff; */
 }
 
 a {
