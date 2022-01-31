@@ -48,7 +48,7 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 .font-montserrat {
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -134,16 +134,22 @@ a:hover {
 }
 
 footer {
-/* Set Size. */
-width: 100%;
-max-width: 100%;
-padding-top: 20px;
-padding-bottom: 20px;
 
-/* Add Offset */
-padding-left: 10px;
+    /* Position. */
+    left: 0;
+    bottom: 0;
+    position: fixed;
 
-/* Set box color */
-background-color: #252525; /* gray */
+    /* Set Size. */
+    width: 100%;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    /* Add Offset */
+    padding-left: 10px;
+
+    /* Set box color */
+    background-color: #252525; /* gray */
 
 }
