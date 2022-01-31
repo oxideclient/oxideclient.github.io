@@ -44,6 +44,10 @@ body {
     font-weight: lighter;
     letter-spacing: 4px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.montserrat {
+font-family: 'Montserrat', sans-serif;
+}
 
 h1 {
     font-size: 55px;
