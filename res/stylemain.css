@@ -19,10 +19,10 @@ body {
 
     /* Background */
     background-color: #252525;
-    backdrop-filter: blur(16px);
+    /* backdrop-filter: blur(16px); */
     background-repeat: no-repeat;
     background-size: cover;
-    animation: bgFadeIn ease-in-out 2s;
+    animation: bgFadeIn ease-in-out 1s;
     animation-fill-mode: forwards;
 }
 
@@ -154,4 +154,9 @@ a:hover {
     background-color: #252525; /* gray */
     opacity: 0.8;
 
+}
+
+.center-text {
+    text-align: center;
+    width: 100%;
 }
