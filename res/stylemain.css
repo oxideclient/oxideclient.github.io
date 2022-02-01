@@ -1,5 +1,6 @@
 html {
     /* Properties */
+    min-height: 100%;
     height: 100%;
     width: 100%;
 }
@@ -18,9 +19,9 @@ body {
 
     /* Background */
     background-color: #252525;
+    backdrop-filter: blur(16px);
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(16px);
     animation: bgFadeIn ease-in-out 2s;
     animation-fill-mode: forwards;
 }
@@ -133,7 +134,7 @@ a:hover {
     }
 }
 
-footer {
+#footer {
 
     /* Position. */
     left: 0;
@@ -147,9 +148,10 @@ footer {
     padding-bottom: 20px;
 
     /* Add Offset */
-    padding-left: 10px;
+    padding-left: 20px;
 
     /* Set box color */
     background-color: #252525; /* gray */
+    opacity: 0.8;
 
 }
