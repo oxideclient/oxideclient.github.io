@@ -1,12 +1,12 @@
 .about-info-box {
-    display: flexbox;
+    display: flex;
     flex-direction: column;
 }
 
 .about-info-row {
     flex-grow: 20%;
 
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
@@ -15,6 +15,4 @@
     display: flex;
     flex-grow: 50%;
     background-color: #424040;
-    width: 100%;
-    height: 100%;
 }
